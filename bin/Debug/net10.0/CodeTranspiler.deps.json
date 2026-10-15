@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CodeTranspiler/1.0.0": {
+        "dependencies": {
+          "sly": "3.8.1"
+        },
+        "runtime": {
+          "CodeTranspiler.dll": {}
+        }
+      },
+      "sly/3.8.1": {
+        "runtime": {
+          "lib/net8.0/sly.dll": {
+            "assemblyVersion": "3.8.1.0",
+            "fileVersion": "3.8.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeTranspiler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "sly/3.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4S3FTEppWjgS7Ji3nDBwglbl4NVZgBKaD1ScW542GPmxPo1NzUrC6JTpNNBv1D9+fLILJ2FWSxJd8BoLDlhDQ==",
+      "path": "sly/3.8.1",
+      "hashPath": "sly.3.8.1.nupkg.sha512"
+    }
+  }
+}

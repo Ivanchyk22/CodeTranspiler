@@ -1,3 +1,5 @@
+using CodeTranspiler.Generators;
+
 namespace CodeTranspiler.AST
 {
     public class FunctionCallNode : ASTNode
@@ -11,7 +13,7 @@ namespace CodeTranspiler.AST
             Argument = argument;
         }
 
-        public override string Accept(Generators.ICodeVisitor visitor)
+        public override string Accept(ICodeVisitors visitor)
         {
             return visitor.Visit(this);
         }
