@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m0d5t1IIBBE=",
+  "success": true,
+  "projectFilePath": "c:\\Projects\\CodeTranspiler\\CodeTranspilerBackEnd\\CodeTranspilerBackEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ivask\\.nuget\\packages\\sly\\3.8.1\\sly.3.8.1.nupkg.sha512",
+    "C:\\Users\\ivask\\.nuget\\packages\\system.valuetuple\\4.6.1\\system.valuetuple.4.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
